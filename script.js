@@ -1,16 +1,16 @@
-let listItem = document.querySelectorAll('li');
-let input = document.querySelector('.search');
-let boxWithMaterials = document.querySelector('.product-list');
-let subtitle = document.querySelector('h2');
+const listItem = document.querySelectorAll('li');
+const input = document.querySelector('.search');
+const boxWithMaterials = document.querySelector('.product-list');
+const subtitle = document.querySelector('h2');
 
 
-let searchProduct = e => {
-  let inputValue = e.target.value.toLowerCase();
-  let inputValueFirstLet = inputValue.charAt(0).toLowerCase();
+const searchProduct = e => {
+  const inputValue = e.target.value.toLowerCase();
+  const inputValueFirstLet = inputValue.charAt(0).toLowerCase();
 
   listItem.forEach(el => {
-      let listsContents = el.textContent
-      let listsContentsFirstLet = el.textContent.charAt(0).toLowerCase();
+      const listsContents = el.textContent
+      const listsContentsFirstLet = el.textContent.charAt(0).toLowerCase();
 
       if (listsContentsFirstLet === inputValueFirstLet && listsContents.toLowerCase().indexOf(inputValue) !== -1) {
         el.style.display = 'block'
