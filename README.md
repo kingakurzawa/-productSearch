@@ -1,4 +1,5 @@
-# ProductSearch
+# Building Materials Searcher 
+Are you building a house or are you renovating the bathroom? Use my demo searcher.   
 
 ## Running the app:
 https://serene-snyder-00a3e0.netlify.app
@@ -6,8 +7,9 @@ https://serene-snyder-00a3e0.netlify.app
 ![app photo](./img/photoApp.png) 
 
 
-## Technologies:
-Project is created with:
+## Project is created with:
+* HTML
+* CSS
 * Vanilla JS
 * RWD
 
